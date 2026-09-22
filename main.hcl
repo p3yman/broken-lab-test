@@ -1,6 +1,4 @@
 resource "lab" "main" {
-  layout = resource.layout.single_panel
-
   content {
     chapter "__default" {
       title = "Default"
